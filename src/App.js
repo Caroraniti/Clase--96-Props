@@ -1,11 +1,13 @@
-import "./App.css"
+import "./App.css";
+import Button from "./componentes/Button"
 
 const App = () => {
   return (
-    <div className= "contenedor">
+    <div className="contenedor">
       <h1>Hola</h1>
-
+      <Button />
     </div>
+
   )
 }
 
