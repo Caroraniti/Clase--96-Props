@@ -1,6 +1,15 @@
-const Button = () => {
+import "./Button.css"
+
+const Button = (props) => {
+
+    console.log(props.color)
+
     return (
-        <button>Hola, soy un boton</button>
+        <button
+            className= {props.color}
+            id="1" >
+            {props.mensaje}
+        </button>
     )
 }
 

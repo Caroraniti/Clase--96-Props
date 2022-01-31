@@ -5,7 +5,16 @@ const App = () => {
   return (
     <div className="contenedor">
       <h1>Hola</h1>
-      <Button />
+      <Button
+        mensaje="Hola"
+        color="rojo"
+      />
+
+      <Button
+        mensaje="Chau"
+        color="verde"
+      />
+
     </div>
 
   )
